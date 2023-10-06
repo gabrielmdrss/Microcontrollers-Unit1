@@ -1,4 +1,15 @@
+# Questão 01
+
 ```C
+/**
+  ******************************************************************************
+  * @file    Questao-1.c
+  * @author  Luiz Neto, Gabriel D.
+  * @version V1.0.0
+  * @date    05-October-2022
+  * @brief   Piscar um LED numa frequência de 2Hz, com largura de pulso de 250ms.
+  ******************************************************************************
+*/
 
 #include "stm32f4xx.h"
 #include "Utility.h"
