@@ -25,6 +25,9 @@ void questao1(void){
 	}
 }
 
+int main(void){
+    questao1();
+}
 
 
 ```
