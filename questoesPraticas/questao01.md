@@ -1,5 +1,7 @@
 # Questão 01
 
+### Nesta questão, a frequência é de 2Hz, o que quer dizer que o pulso completo ocorre a cada 2 segundos, e a cada 250 milissegundos, o LED na placa será desligado e ligado novamente.
+
 ```C
 /**
   ******************************************************************************
