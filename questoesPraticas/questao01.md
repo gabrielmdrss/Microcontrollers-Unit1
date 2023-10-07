@@ -1,6 +1,6 @@
 # Questão 01
 
-### Nesta questão, a frequência é de 2Hz, o que quer dizer que o pulso completo ocorre a cada 2 segundos, e a cada 250 milissegundos, o LED na placa será desligado e ligado novamente.
+### Nesta questão, a frequência é de 2Hz, o que quer dizer que o pulso completo ocorre a cada 0.5 segundos, e a cada 250 milissegundos, o LED na placa será desligado e ligado novamente.
 
 ```C
 /**
@@ -8,7 +8,7 @@
   * @file    Questao-1.c
   * @author  Luiz Neto, Gabriel D.
   * @version V1.0.0
-  * @date    05-October-2022
+  * @date    05-October-2023
   * @brief   Piscar um LED numa frequência de 2Hz, com largura de pulso de 250ms.
   ******************************************************************************
 */
