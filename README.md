@@ -7,3 +7,7 @@
 
 ### `03.` [Piscar um LED com largura de pulso de 50ms, obedecendo o seguinte ciclo: pisca uma vez, aguarda um tempo e, em seguida, pisca duas vezes seguidas, aguardando mais um tempo.](questoesPraticas/questao03.md)
 
+### `04.` [Piscar um LED com largura de pulso fica de 50ms, mas com frequência crescente, iniciando em 1Hz.](questoesPraticas/questao04.md)
+
+
+

@@ -3,7 +3,7 @@
   * @file    main.c
   * @author  Luiz Neto, Gabriel D.
   * @version V0.1.0
-  * @date    05-October-2022
+  * @date    05-October-2023
   * @brief   Default main function.
   ******************************************************************************
 */
