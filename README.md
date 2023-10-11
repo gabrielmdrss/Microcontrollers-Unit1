@@ -9,5 +9,4 @@
 
 ### `04.` [Piscar um LED com largura de pulso fica de 50ms, mas com frequência crescente, iniciando em 1Hz.](questoesPraticas/questao04.md)
 
-
-
+### `05.` [Acionar um buzzer para emitir um som semelhante ao de um alarme sonoro: 4 beeps curtos de 50ms de largura, seguidos de uma pausa.](questoesPraticas/questao05.md)
