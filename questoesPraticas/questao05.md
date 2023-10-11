@@ -1,5 +1,7 @@
 # Questão 05
 
+### Nesta questão é pedido um acionamento de um buzzer com uma sequência específica: 4 beeps curtos de 50ms de largura, seguidos de uma pausa. Consideramos a pausa com largura de 600ms.
+
 ```C
 /**
   ******************************************************************************
