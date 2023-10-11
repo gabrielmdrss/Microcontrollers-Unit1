@@ -1,6 +1,6 @@
 # Questão 04
 
-### Nesta questão é pedido um acionamento de um LED com largura de pulso fixa de 50ms, mas com uma frequência crescente. Podemos inferir que com o aumento da frequência levará a diminuição do período, ocasionando em uma aceleração do ciclo. Com frequência inicial de 1Hz temos que o período inicial é de 1s. Fizemos uso de um laço de repetição onde através da variável "tempo", a cada iteração ocorria um aumento linear da frequência, até o ponto que a largura total fosse apenas os 50ms fixos. Após isso, reiniciando a sequência e fazendo tudo novamente.
+### Nesta questão é pedido um acionamento de um LED com largura de pulso fixa de 50ms, mas com uma frequência crescente. Podemos inferir que com o aumento da frequência levará a diminuição do período, ocasionando em uma aceleração do ciclo. Com frequência inicial de 1Hz temos que o período inicial é de 1s. Usamos um laço de repetição onde através da variável "tempo", a cada iteração ocorria um aumento linear da frequência, até o ponto que a largura total fosse apenas os 50ms fixos. Após isso, reiniciando a sequência e fazendo tudo novamente.
 ```C
 /**
   ***********************************************************************************************************
