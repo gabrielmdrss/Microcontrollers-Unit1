@@ -1,3 +1,5 @@
+### Nesta questão é pedido um acionamento do LED utilizando uma técnica PWM(Pulse Widht Modulation). Já que na eletrônica lidamos com valores 0 ou 1(3,3V), não conseguimos introduzir valores "intermediários", o PDW vem para esse propósito.
+
 ```C
 /**
   ******************************************************************************
