@@ -8,7 +8,7 @@
 /**
   ******************************************************************************
   * @file    Questao-7.c
-  * @author  , Gabriel D.
+  * @author  Gabriel D., Luiz Neto
   * @version V1.0.0
   * @date    05-October-2023
   * @brief   Acender um LED com diferentes intensidades de brilho, alterando essa intensidade.
