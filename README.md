@@ -14,3 +14,5 @@
 ### `06.` [Mostrar um LED aceso com diferentes intensidades de brilho, selecionadas em tempo de compilação, utilizando uma técnica de PWM por meio de software (utilize uma frequência PWM de 100Hz).](questoesPraticas/questao06.md)
 
 ### `07.` [Acender um LED com diferentes intensidades de brilho, alterando a intensidade em tempo de execução, utilizando uma técnica de PWM por meio de software (utilize uma frequência PWM de 100Hz). O LED deve iniciar apagado, aumentar gradativamente o brilho até o máximo e em seguida reduzir gradativamente o brilho até se apagar, repetindo o processo indefinidamente.](questoesPraticas/questao07.md)
+
+### `08.` [Piscar dois LEDS, alternadamente, com largura de pulso de 50% do período, com frequência de 2Hz, produzindo um comportamento semelhante aos sinalizadores de saída de veículos em garagens. (Observação: verificar a simultaneidade de acionamento dos LEDs).](questoesPraticas/questao08.md)
