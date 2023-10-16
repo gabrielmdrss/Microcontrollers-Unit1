@@ -6,7 +6,7 @@
 /**
   ******************************************************************************
   * @file    Questao-10.c
-  * @author  Gabriel D., 
+  * @author  Gabriel D., Luiz Neto
   * @version V1.0.0
   * @date    05-October-2023
   * @brief   Acender dois LEDs com diferentes intensidades de brilho.
