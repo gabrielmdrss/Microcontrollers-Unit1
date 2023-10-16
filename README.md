@@ -20,3 +20,5 @@
 ### `09.` [Apresentar uma contagem binária de 2 bits a partir de 2 LEDs.](questoesPraticas/questao09.md)
 
 ### `10.` [Acender dois LEDs com diferentes intensidades de brilho, alterando alternadamente a intensidade em tempo de execução, semelhantemente ao que foi feito na questão 7.](questoesPraticas/questao10.md)
+
+### `11.` [Apresentar uma contagem binária de 8 bits a partir de 8 LEDs externos. (obs.: para facilitar a implementação do código, conecte os LEDs a pinos contíguos de um mesmo GPIO).](questoesPraticas/questao11.md)
