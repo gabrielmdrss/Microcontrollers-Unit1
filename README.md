@@ -18,3 +18,5 @@
 ### `08.` [Piscar dois LEDS, alternadamente, com largura de pulso de 50% do período, com frequência de 2Hz, produzindo um comportamento semelhante aos sinalizadores de saída de veículos em garagens. (Observação: verificar a simultaneidade de acionamento dos LEDs).](questoesPraticas/questao08.md)
 
 ### `09.` [Apresentar uma contagem binária de 2 bits a partir de 2 LEDs.](questoesPraticas/questao09.md)
+
+### `10.` [Acender dois LEDs com diferentes intensidades de brilho, alterando alternadamente a intensidade em tempo de execução, semelhantemente ao que foi feito na questão 7.](questoesPraticas/questao10.md)
