@@ -8,7 +8,7 @@
   * @file    Questao-8.c
   * @author  Gabriel D., Luiz Neto.
   * @version V1.0.0
-  * @date    13-October-2023
+  * @date    05-October-2023
   * @brief   Piscar dois LEDS, alternadamente, com largura de pulso de 50% do período.
   ******************************************************************************
 */
