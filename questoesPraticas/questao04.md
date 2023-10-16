@@ -7,7 +7,7 @@
   * @file    Questao-4.c
   * @author  Luiz Neto, Gabriel D.
   * @version V1.0.0
-  * @date    09-October-2023
+  * @date    05-October-2023
   * @brief   Piscar um LED com largura de pulso fixa de 50ms, mas com frequência crescente, iniciando em 1Hz.
   ***********************************************************************************************************
 */
