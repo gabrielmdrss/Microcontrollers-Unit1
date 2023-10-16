@@ -8,7 +8,7 @@
 /**
   ******************************************************************************
   * @file    Questao-11.c
-  * @author  Gabriel D., 
+  * @author  Gabriel D., Luiz Neto
   * @version V1.0.0
   * @date    05-October-2023
   * @brief   Apresentar uma contagem binária de 8 bits a partir de 8 LEDs externos.
