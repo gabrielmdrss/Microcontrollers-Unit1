@@ -7,7 +7,7 @@
   * @file    Questao-2.c
   * @author  Luiz Neto, Gabriel D.
   * @version V1.0.0
-  * @date    07-October-2023
+  * @date    05-October-2023
   * @brief   Piscar um LED numa frequência de 0.5Hz, com largura de pulso de 100ms.
   ******************************************************************************
 */
