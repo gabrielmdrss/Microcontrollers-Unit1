@@ -1,6 +1,6 @@
 # Questão 12
 
-### Nesta questão, é pedido um sistema capaz de apresentar o efeito do "LED andante". Usando LEDs externos na implementação. Usamos o GPIOA para esse problema, sendo o bit menos significativo o PA0 e o mais significativo o PA7.
+### Nesta questão, é pedido um sistema capaz de apresentar o efeito do "LED andante". Usando LEDs externos na implementação, fizemos uso do GPIOA para esse problema, sendo o bit menos significativo o PA0 e o mais significativo o PA7.
 ######
 ### Fizemos dois laços, um para ir da direita para esquerda e outro para ir da esquerda para direita, os dois com tamanho 8, sendo esse o número de LEDs conectados. Estavámos passando o índice "i", ao invés de passar o número da porta. Fazendo com que a cada iteração, 1 das 8 portas fossem acionadas e desligadas, dando continuidade para o LED seguinte, ocorrendo ciclicamente. Atribuímos um Delay baixo para uma melhor ilustração da modelagem.
 ```C
