@@ -7,7 +7,7 @@
 /**
   ******************************************************************************
   * @file    Questao-6.c
-  * @author  Luiz Neto, Gabriel D.
+  * @author  Gabriel D., Luiz Neto 
   * @version V1.0.0
   * @date    05-October-2023
   * @brief   Mostrar um LED aceso com diferentes intensidades de brilho, utilizando uma técnica de PWM.
