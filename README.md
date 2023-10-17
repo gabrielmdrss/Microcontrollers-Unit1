@@ -22,3 +22,5 @@
 ### `10.` [Acender dois LEDs com diferentes intensidades de brilho, alterando alternadamente a intensidade em tempo de execução, semelhantemente ao que foi feito na questão 7.](questoesPraticas/questao10.md)
 
 ### `11.` [Apresentar uma contagem binária de 8 bits a partir de 8 LEDs externos. (obs.: para facilitar a implementação do código, conecte os LEDs a pinos contíguos de um mesmo GPIO).](questoesPraticas/questao11.md)
+
+### `12.` [12. Implementar o efeito do LED andante nos 8 LEDs da questão anterior: ative o primeiro LED e faça com que o LED aceso se desloque do primeiro ao último, ou seja, se o primeiro está aceso, após um tempo apaga-se esse LED enquanto se acende o segundo, e assim sucessivamente até o oitavo LED. O LED andante deve se deslocar de um extremo a outro e em seguida fazer a operação no sentido inverso.](questoesPraticas/questao12.md)
