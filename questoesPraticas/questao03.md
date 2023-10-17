@@ -5,7 +5,7 @@
 /**
   ******************************************************************************
   * @file    Questao-3.c
-  * @author  Luiz Neto, Gabriel D.
+  * @author  Gabriel D., Luiz Neto
   * @version V1.0.0
   * @date    05-October-2023
   * @brief   Piscar um LED com largura de pulso de 50ms, obedecendo a um ciclo.
