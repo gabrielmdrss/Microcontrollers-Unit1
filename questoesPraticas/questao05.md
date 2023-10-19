@@ -6,7 +6,7 @@
 /**
   ******************************************************************************
   * @file    Questao-5.c
-  * @author  Luiz Neto, Gabriel D.
+  * @author  Gabriel D., Luiz Neto
   * @version V1.0.0
   * @date    05-October-2023
   * @brief   Acionar um buzzer para emitir um som semelhante ao de um alarme sonoro.
