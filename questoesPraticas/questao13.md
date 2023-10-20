@@ -1,6 +1,6 @@
 # Questão 13
 
-### Nesta questão
+### Nesta questão, é pedido uma simulação de dois semáfaros. Onde quando um estiver aberto, o outro deve permanecer fechado. Tendo 6 LEDs na implementação, 3 para cada semáfaro, seguindo a lógica normal do trânsito.
 ```C
 /**
   ******************************************************************************
