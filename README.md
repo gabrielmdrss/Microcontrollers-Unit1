@@ -26,3 +26,5 @@
 ### `12.` [Implementar o efeito do LED andante nos 8 LEDs da questão anterior: ative o primeiro LED e faça com que o LED aceso se desloque do primeiro ao último, ou seja, se o primeiro está aceso, após um tempo apaga-se esse LED enquanto se acende o segundo, e assim sucessivamente até o oitavo LED. O LED andante deve se deslocar de um extremo a outro e em seguida fazer a operação no sentido inverso.](questoesPraticas/questao12.md)
 
 ### `13.` [Simular o funcionamento de um cruzamento com dois semáforos de trânsito usando 6 LEDs.](questoesPraticas/questao13.md)
+
+### `14.` [Apresentar uma contagem decimal/hexadecimal (crescente e decrescente) de um dígito em um display de 7 segmentos.](questoesPraticas/questao14.md)
