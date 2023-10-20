@@ -7,7 +7,7 @@
 /**
   ******************************************************************************
   * @file    Questao-14.c 
-  * @author  Gabriel D., 
+  * @author  Gabriel D., Luiz
   * @version V1.0.0
   * @date    05-October-2023
   * @brief   Apresentar uma contagem decimal/hexadecimal.
