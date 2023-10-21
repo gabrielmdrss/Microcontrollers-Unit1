@@ -28,3 +28,5 @@
 ### `13.` [Simular o funcionamento de um cruzamento com dois semáforos de trânsito usando 6 LEDs.](questoesPraticas/questao13.md)
 
 ### `14.` [Apresentar uma contagem decimal/hexadecimal (crescente e decrescente) de um dígito em um display de 7 segmentos.](questoesPraticas/questao14.md)
+
+### `15.` [Apresentar uma contagem decimal/hexadecimal (crescente e decrescente) de dois dígitos em dois displays de 7 segmentos. (Obs: Utilize a técnica de multiplexação para usar a menor quantidade possível de terminais). Utilize transistores como drive de potência para fazer a comutação do sistema de multiplexação.](questoesPraticas/questao15.md)
