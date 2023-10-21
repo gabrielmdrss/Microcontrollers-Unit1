@@ -1,3 +1,9 @@
+# Questão 15
+
+### Nesta questão, é pedido um acionamento de dois displays de 7 segmentos apartir de 2 transistores, para fazer uma contagem decimal/hexadecimal de 256 possibilidades(16x16). Na nossa montagem, os dois displays foram conectados nas mesmas portas, ou seja, se ligados no mesmo momento, exibiriam os mesmos resultados. Para evitar essa situação, fizemos uso de uma funçao tempo, que tem duração de 1 segundo. Nesse 1 segundo a função irá alternar rapidamente entre ligar e desligar um transistor por vez, dando a falsa impressão que os dois estão ligados paralelamente, denominado pseudoparalelismo.
+#####
+### Assim como a questão 14, fizemos uso de uma lista de inteiros, representando a máscara em binário de cada digito do sistema decimal/hexadecimal. Assim, fízemos um loop dentro de um loop, para ser uma espécie de matriz, com os indices "i" e "j", retratando as dezenas e as unidades, respectivamente. Desse modo, dentro do segundo loop implementamos a função tempo, para conseguir passar a impressão que os displays estão operando em conjunto.
+
 ```C
 /**
   ***************************************************************************************
