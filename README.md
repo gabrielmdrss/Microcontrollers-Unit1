@@ -32,3 +32,5 @@
 ### `15.` [Apresentar uma contagem decimal/hexadecimal (crescente e decrescente) de dois dígitos em dois displays de 7 segmentos. (Obs: Utilize a técnica de multiplexação para usar a menor quantidade possível de terminais). Utilize transistores como drive de potência para fazer a comutação do sistema de multiplexação.](questoesPraticas/questao15.md)
 
 ### `17.` [Controlar um micro servomotor para que ele alterne suavemente a posição do eixo entre direita e esquerda, continuamente.](questoesPraticas/questao17.md)
+
+### `18.` [Implementar o controle de velocidade de um motor DC para que ele acelere suavemente até sua velocidade máxima e em seguida desacelere e repita o mesmo procedimento no sentido contrário. Utilize uma ponte H como drive de potência para o motor.](questoesPraticas/questao18.md)
