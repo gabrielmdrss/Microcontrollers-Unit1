@@ -1,6 +1,6 @@
 # Questão 10 
 
-### Nesta questão, semelhante à questão 7, é cobrado um acionamento alternado de dois LEDs com o uso da técnica PDW(Pulse Widht Modulation). Mas enquanto um irá acender linearmente, o outro irá apagar linearmente. Em poucas palavras, isso significa que em locais onde assumíamos o nível lógico alto para PA6(LED D2), atribuímos nível lógico baixo para PA7(LED D1). Fazendo com que para um LED seja um laço para acender e apagar, e no outro LED, um laço será apagar e acender, de forma invertida.
+### Nesta questão, semelhante à questão 7, é cobrado um acionamento alternado de dois LEDs com o uso da técnica PDW(Pulse Widht Modulation). Mas enquanto um irá acender linearmente, o outro irá apagar linearmente. Em poucas palavras, isso significa que em locais onde assumíamos o nível lógico alto para PA6(LED D2), atribuímos nível lógico baixo para PA7(LED D1)e vice-versa. Fazendo com que para um LED seja um laço para acender e apagar, e no outro LED, um laço será apagar e acender, de forma invertida.
 
 ```C
 /**
