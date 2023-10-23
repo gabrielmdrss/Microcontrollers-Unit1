@@ -6,7 +6,7 @@
 /**
   ******************************************************************************
   * @file    Questao-17.c 
-  * @author  Gabriel D.,
+  * @author  Gabriel D., Luiz
   * @version V1.0.0
   * @date    05-October-2023
   * @brief   Controlar um micro servomotor para que ele alterne suavemente a posição do eixo.
