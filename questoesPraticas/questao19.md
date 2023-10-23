@@ -2,6 +2,9 @@
 
 ## Na questão 19 um, relé é acionado a partir carga em corrente contínua (DC) de 5V
 
+## Montagem:
+### O Relé utilizado na questão foi um, relé de 1 canal 5V. Para conectá-lo ao STM32, foram utilizados 3 jumpers fêmea-fêmea da seguinte maneira: a saída VCC do, relé foi conectada à saída de 5V do STM32, o GND do, relé foi conectado a qualquer terminal GND do microcontrolador e a saída "IN" foi conectada ao pino PA6.
+
 ````C 
 /**
   ******************************************************************************
