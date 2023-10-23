@@ -1,4 +1,7 @@
 # Questão 19
+
+## Na questão 19 um, relé é acionado a partir carga em corrente contínua (DC) de 5V
+
 ````C 
 /**
   ******************************************************************************
