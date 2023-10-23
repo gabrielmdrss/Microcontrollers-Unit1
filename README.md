@@ -34,3 +34,5 @@
 ### `17.` [Controlar um micro servomotor para que ele alterne suavemente a posição do eixo entre direita e esquerda, continuamente.](questoesPraticas/questao17.md)
 
 ### `18.` [Implementar o controle de velocidade de um motor DC para que ele acelere suavemente até sua velocidade máxima e em seguida desacelere e repita o mesmo procedimento no sentido contrário. Utilize uma ponte H como drive de potência para o motor.](questoesPraticas/questao18.md)
+
+### `19.` [Realizar o acionamento de uma carga em corrente alternada (AC) de 220V a partir de um, relé.](questoesPraticas/questao19.md)
