@@ -12,7 +12,7 @@
 /**
   ******************************************************************************
   * @file    Questao-19.c 
-  * @author  Luiz, 
+  * @author  Gabriel D., Luiz Neto 
   * @version V1.0.0
   * @date    05-October-2023
   * @brief   Realizar o acionamento de uma carga partir de um relé.
