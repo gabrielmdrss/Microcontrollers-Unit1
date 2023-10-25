@@ -4,7 +4,7 @@
 /**
   *****************************************************************
   * @file    Questao-19.c 
-  * @author  , Luiz Neto 
+  * @author  Gabriel D, Luiz Neto 
   * @version V0.1.0
   * @date    05-October-2023
   * @brief   Realizar o acionamento de um motor de passo.
