@@ -36,3 +36,6 @@
 ### `18.` [Implementar o controle de velocidade de um motor DC para que ele acelere suavemente até sua velocidade máxima e em seguida desacelere e repita o mesmo procedimento no sentido contrário. Utilize uma ponte H como drive de potência para o motor.](questoesPraticas/questao18.md)
 
 ### `19.` [Realizar o acionamento de uma carga em corrente alternada (AC) de 220V a partir de um, relé.](questoesPraticas/questao19.md)
+
+### `20.` [Realizar o acionamento de um motor de passo com velocidade e sentido variáveis considerando que o motor seja monopolar e, também, bipolar. Para cada caso, realize o acionamento através de passo completo, meio passo e micro passo. Quando o motor for monopolar, implemente um drive de potência com transistores. Quando o motor for bipolar, utilize duas pontes H como drive de potência ou utilize um drive de potência integrado](questoesPraticas/questao20.md)
+
