@@ -7,7 +7,7 @@
   *****************************************************************************************
   * @file    Questao-21.c 
   * @author  , Luiz Neto 
-  * @version V0.1.0
+  * @version V1.0.0
   * @date    05-October-2023
   * @brief   Reproduzir em uma saída com um LED o estado de uma entrada com um push-button
   *****************************************************************************************
