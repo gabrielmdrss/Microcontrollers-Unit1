@@ -9,9 +9,7 @@
 ### Para a construção do código a gente considerou o seguinte cenário: o eixo do motor realizar um giro de 360º em uma direção e logo em seguida realizar o movimento inverso.
 ### Para fazer um motor de passo bipolar girar, você precisa ativar as bobinas em sequência específica, gerando campos eltromagnéticos que interagem com o rotor e o fazem mover-se. Script básico para fazerem se moverem é esse: Ativação de Bobina 1, Desativação de Bobina 1 e Ativação de Bobina 2, Desativação de Bobina 2.
 ### Cada passo completo gira o motor em um ângulo de 1,8 graus, já que existem 200 passos por revolução (360 graus / 1,8 graus por passo).
-### O controle da velocidade e direção do motor de passo é alcançado ajustando o tempo durante o qual as bobinas são ativadas e a ordem das ativações. No código a gente fez uma modulação por largura de pulso (PWM) para controlar a corrente nas bobinas e, assim, a velocidade do motor. Utilizando os drives de potência para isso.
-
-
+### O controle da velocidade e direção do motor de passo é alcançado ajustando o tempo durante o qual as bobinas são ativadas e a ordem das ativações. No código a gente fez uma modulação por largura de pulso (PWM) para controlar a corrente nas bobinas e, assim, a velocidade do motor e sua direção. Utilizando os drives de potência para isso.
 
 
 ````C 
