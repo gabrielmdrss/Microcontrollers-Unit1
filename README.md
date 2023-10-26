@@ -39,3 +39,4 @@
 
 ### `20.` [Realizar o acionamento de um motor de passo com velocidade e sentido variáveis considerando que o motor seja monopolar e, também, bipolar. Para cada caso, realize o acionamento através de passo completo, meio passo e micro passo. Quando o motor for monopolar, implemente um drive de potência com transistores. Quando o motor for bipolar, utilize duas pontes H como drive de potência ou utilize um drive de potência integrado](questoesPraticas/questao20.md)
 
+### `21.` [Reproduzir em uma saída com um LED o estado de uma entrada com um push-button.](questoesPraticas/questao21.md)
