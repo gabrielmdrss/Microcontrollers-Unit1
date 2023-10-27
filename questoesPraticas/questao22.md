@@ -6,7 +6,7 @@
 /**
   ***************************************************************************************************
   * @file    Questao-22.c 
-  * @author  , Luiz Neto 
+  * @author  Gabriel D, Luiz Neto 
   * @version V1.0.0
   * @date    05-October-2023
   * @brief   Reproduzir em duas saída com dois LEDs os estados de suas entradas com dois push-buttons
