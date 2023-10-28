@@ -5,7 +5,7 @@
 /**
   ***************************************************************************************************
   * @file    Questao-23.c 
-  * @author  , Luiz Neto 
+  * @author  Gabriel D, Luiz Neto 
   * @version V1.0.0
   * @date    05-October-2023
   * @brief   Utilizar uma entrada para alternar o estado lógico de uma saída de um LED.
