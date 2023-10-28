@@ -1,5 +1,9 @@
 ## Questão 23
 
+## A questão 23 é bem simples, resumindo a você vai transformar o botão do stm32 em um interruptor (apertou o led desliga, apertou de novo o led liga e assim sucessivamente).
+
+### A escolha do pino pe4 foi exclusivamente porque ele é responsável por acionar o led D1 presente no micro.
+
 
 ````C 
 /**
