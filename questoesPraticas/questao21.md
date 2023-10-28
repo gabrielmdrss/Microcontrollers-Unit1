@@ -1,6 +1,6 @@
 # Questão 21
 
-
+## A questão 21 pede para a que, seja reproduzida em uma saída com um Led o estado de uma entrada com um push-button. Basicamente no proprio botão k1 do stm32, quando pressionado, o led da placa vai ser acesso, para isso funcionar é necessário acionar em tempo de execução o resistor pull-up presente no pino pe4.
 
 ````C 
 /**
