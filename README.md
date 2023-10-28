@@ -41,4 +41,6 @@
 
 ### `21.` [Reproduzir em uma saída com um LED o estado de uma entrada com um push-button.](questoesPraticas/questao21.md)
 
-### `22.` [ Reproduzir em duas saídas com dois LEDs os estados de duas entradas com dois push-buttons.](questoesPraticas/questao22.md)
+### `22.` [Reproduzir em duas saídas com dois LEDs os estados de duas entradas com dois push-buttons.](questoesPraticas/questao22.md)
+
+### `23.` [Utilizar uma entrada com um push-button para alternar o estado lógico de uma saída conectada a um LED.](questoesPraticas/questao23.md)
