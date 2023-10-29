@@ -9,7 +9,7 @@
 /**
   ***************************************************************************************************
   * @file    Questao-24.c 
-  * @author  , Luiz Neto 
+  * @author  Gabriel D, Luiz Neto 
   * @version V1.0.0
   * @date    05-October-2023
   * @brief  Led só acende se quando o botão K0 primeiro é precionado e logo em seguida o K1
