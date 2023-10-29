@@ -44,3 +44,5 @@
 ### `22.` [Reproduzir em duas saídas com dois LEDs os estados de duas entradas com dois push-buttons.](questoesPraticas/questao22.md)
 
 ### `23.` [Utilizar uma entrada com um push-button para alternar o estado lógico de uma saída conectada a um LED.](questoesPraticas/questao23.md)
+
+### `24.` [Utilizar dois push-button (K0 e K1) para acionar um LED com a seguinte regra: o LED só deve acender se o usuário pressionar os dois botões juntos, mas primeiro o botão K0 deve ser pressionado e só depois o botão K1.](questoesPraticas/questao24.md)
