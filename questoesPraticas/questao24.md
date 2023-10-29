@@ -2,7 +2,7 @@
 
 ## 
 
-### 
+### A escolha dos pinos pe4 e pe3 foi exclusivamente porque eles são responsáveis por acionar os leds D1 e D2 respectivamente presentes no micro.
 
 
 ````C 
