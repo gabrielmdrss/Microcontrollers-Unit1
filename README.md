@@ -49,5 +49,5 @@
 
 ### `25.` [ Utilizar dois push-button (K0 e K1) para acionar um LED com a seguinte regra: o LED só deve acender se o usuário pressionar os dois botões juntos, mas primeiro o botão K0 e em seguida o botão K1. Se o botão K1 não for pressionado dentro de no máximo 1 segundo após K0 ser pressionado, o LED não deve acender.](questoesPraticas/questao25.md)
 
-### `25.` [Controlar um micro servomotor para que ele alterne suavemente a posição do eixo entre direita e esquerda por meio de dois push-buttons, sendo um para posicionar o eixo do motor mais à esquerda e outro mais à direita.](questoesPraticas/questao26.md)
+### `26.` [Controlar um micro servomotor para que ele alterne suavemente a posição do eixo entre direita e esquerda por meio de dois push-buttons, sendo um para posicionar o eixo do motor mais à esquerda e outro mais à direita.](questoesPraticas/questao26.md)
 
