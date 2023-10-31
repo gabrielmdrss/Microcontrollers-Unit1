@@ -5,7 +5,7 @@
 /**
   ***********************************************************************************************************************
   * @file    Questao-26.c 
-  * @author  , Luiz Neto 
+  * @author  Gabriel D, Luiz Neto 
   * @version V1.0.0
   * @date    05-October-2023
   * @brief  Controlar um servomotor apartir de dois push-buttons
