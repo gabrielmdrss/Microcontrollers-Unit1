@@ -51,3 +51,5 @@
 
 ### `26.` [Controlar um micro servomotor para que ele alterne suavemente a posição do eixo entre direita e esquerda por meio de dois push-buttons, sendo um para posicionar o eixo do motor mais à esquerda e outro mais à direita.](questoesPraticas/questao26.md)
 
+### `27.` [ Utilizar um teclado de membrana, 4x4, e fazer sua decodificação, apresentando a tecla pressionada em um display de 7 segmentos.](questoesPraticas/questao27.md)
+
