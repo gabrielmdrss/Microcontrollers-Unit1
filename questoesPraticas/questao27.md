@@ -5,7 +5,7 @@
 /**
   ***********************************************************************************************************************
   * @file    Questao-27.c 
-  * @author  , Luiz Neto 
+  * @author  Gabriel D, Luiz Neto 
   * @version V1.0.0
   * @date    05-October-2023
   * @brief  Ultizar os 3 botões do stm32 para imprimir numeros em um display de 7 segmentos
