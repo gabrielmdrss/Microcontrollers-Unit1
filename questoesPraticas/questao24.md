@@ -1,6 +1,6 @@
 ## Questão 24
 
-## Para cumprir a regra imposta pela regra questão 24, o código precisa cumprir alguns pré-requisitos, primeiro se o botão k1 for pressionado nada acontece, se somente K0 for pressionado também nada acontece, se K0 e K1 forem pressionados respectivamente então o led D1 é acesso.
+## Para cumprir a regra imposta pela regra questão 24, o código precisa cumprir alguns pré-requisitos, primeiro se o botão k1 for pressionado nada acontece, se somente K0 for pressionado também nada acontece, se o botão K0 e o botão K1 forem pressionados respectivamente então o led D1 é acesso.
 
 ### A escolha dos pinos pe4 e pe3 foi exclusivamente porque eles são responsáveis por acionar os leds D1 e D2 respectivamente presentes no micro, apesar disso só é necessário acender o led D1 na questão 24.
 
