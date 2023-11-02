@@ -1,4 +1,4 @@
-## Questão 22
+# Questão 22
 
 ## A questão 22 pede para a que, seja reproduzida em duas saídas com dois Leds os estados de suas entradas com dois push-button. A questão 22 é um complemento da questão 21 onde no proprio botão k1 e k2 do stm32, quando pressionados, os dois leds da placa vai ser acesso, para isso funcionar é necessário acionar em tempo de execução o resistor pull-up presente no pino pe4 e pe3.
 
