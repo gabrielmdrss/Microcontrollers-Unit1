@@ -1,5 +1,7 @@
 # Questão 26
 
+## O controle dos servomotores da questão 26 é relativamente simples, a grande diferença dessa para a questão 26 é somente que o angulo que o eixo do motor vai estar, vai ser controladas pelos botões k1 e k0, onde dependendo de qual botão você aperte, o servomotor vai se mover ou para esquerda ou para a direita.
+
 
 ````C 
 /**
