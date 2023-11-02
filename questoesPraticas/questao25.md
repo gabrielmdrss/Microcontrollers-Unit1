@@ -1,4 +1,4 @@
-## Questão 25
+# Questão 25
 
 ## Na questão 25 a questão pede duas regras para o acionamento do led, primeiro se o botão k1 for pressionado nada acontece, se somente K0 for pressionado também nada acontece, se botão K0 e logo após exatamente 1 segundo o botão K1 forem pressionados respectivamente então o led D1 é acesso.
 
