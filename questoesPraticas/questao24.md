@@ -39,7 +39,6 @@ void questao24(void){
 	            k0 = !(GPIOE->IDR & (1 << 4));
 	            k1 = !(GPIOE->IDR & (1 << 3));
 
-
 	            if(k1 && k0){
 	                GPIOA->ODR &= ~(1 << 6);
 	                }else GPIOA->ODR |= (1 << 6);
