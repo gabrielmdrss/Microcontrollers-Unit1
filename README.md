@@ -53,3 +53,5 @@
 
 ### `27.` [ Utilizar um teclado de membrana, 4x4, e fazer sua decodificação, apresentando a tecla pressionada em um display de 7 segmentos.](questoesPraticas/questao27.md)
 
+### `30.` [Implementar o antigo jogo da memória “Genius”. (Utilize as funções rand() ou srand() para criar uma sequência aleatória a ser memorizada)](questoesPraticas/questao30.md)
+
