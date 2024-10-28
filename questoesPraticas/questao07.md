@@ -1,17 +1,17 @@
-# Questão 07
+# Question 07
 
-### Nesta questão é pedido um acionamento de um LED com diferentes intensidades de brilho, alterando essa intensidade em tempo de execução. Temos a frequência igual a 100Hz, ou seja, o período é igual a 0,01s ou 10.000us.
+### In this question, the task is to activate an LED with different brightness intensities, changing this intensity at runtime. We have a frequency of 100Hz, which means the period is equal to 0.01s or 10,000µs.
 #####
-### Por um laço de repetição, manipulamos para que, inicialmente, o nível lógico baixo(LED aceso) fosse 0/10.000 e íamos incrementando até que houvesse a situação contrária 10.000/0. Isso fez com que o LED acendesse totalmente e, logo após isso, fizemos um laço com a lógica contrária para apagar o LED, fazendo com que o sistema se tornasse um ciclo.
+### Through a loop, we manipulated it so that, initially, the low logical level (LED on) was 0/10,000, and we incremented it until the opposite situation occurred, 10,000/0. This caused the LED to be fully lit, and after that, we created a loop with the opposite logic to turn off the LED, making the system into a cycle.
 
 ```C
 /**
   ******************************************************************************
-  * @file    Questao-7.c
+  * @file    Question-7.c
   * @author  Gabriel D., Luiz Neto
   * @version V1.0.0
   * @date    05-October-2023
-  * @brief   Acender um LED com diferentes intensidades de brilho, alterando essa intensidade.
+  * @brief   Illuminate an LED with different brightness levels, varying the brightness using a software PWM technique.
   ******************************************************************************
 */
 
