@@ -1,17 +1,18 @@
-# Questão 21
+# Question 21
 
-## A questão 21 pede para a que, seja reproduzida em uma saída com um Led o estado de uma entrada com um push-button. Basicamente no proprio botão k1 do stm32, quando pressionado, o led da placa vai ser acesso, para isso funcionar é necessário acionar em tempo de execução o resistor pull-up presente no pino pe4.
+### This question asks for an output with an LED to reproduce the state of an input with a push-button. Basically, when the K1 button on the STM32 is pressed, the LED on the board will be turned on. For this to work, it is necessary to activate the pull-up resistor present on pin PE4 at runtime.
 
-### A escolha do pino pe4 foi exclusivamente porque ele é responsável por acionar o led D1 presente no micro.
+### The choice of pin PE4 was made exclusively because it is responsible for turning on the LED D1 present on the microcontroller.
+
 
 ````C 
 /**
   *****************************************************************************************
-  * @file    Questao-21.c 
+  * @file    Question-21.c 
   * @author  Gabriel D, Luiz Neto 
   * @version V1.0.0
   * @date    05-October-2023
-  * @brief   Reproduzir em uma saída com um LED o estado de uma entrada com um push-button
+  * @brief   Reproduce an input state on an output LED using a push-button.
   *****************************************************************************************
 */
 
