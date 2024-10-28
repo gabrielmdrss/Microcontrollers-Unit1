@@ -1,15 +1,15 @@
-# Questão 09
+# Question 09
 
-### Nesta questão é pedido um acionamento de dois LEDs, fazendo uma contagem binária de 2 bits. Representamos o bit menos significativo com a porta PA6(controlando o LED D2) e o bit mais significativo com a porta PA7(controlando o LED D1). Por se tratar de uma contagem com 2 bits apenas, fizemos um laço de tamanho 4, para atender as 4 possibilidades, contando de 0 a 3 em decimal.
+### In this question, a control of two LEDs is requested, performing a binary count of 2 bits. We represent the least significant bit with port PA6 (controlling LED D2) and the most significant bit with port PA7 (controlling LED D1). Since it is a count with only 2 bits, we created a loop of size 4 to cover the 4 possibilities, counting from 0 to 3 in decimal.
 
 ```C
 /**
   ******************************************************************************
-  * @file    Questao-9.c
+  * @file    Question-9.c
   * @author  Gabriel D., Luiz Neto.
   * @version V1.0.0
   * @date    05-October-2023
-  * @brief   Apresentar uma contagem binária de 2 bits a partir de 2 LEDs.
+  * @brief   Display a 2-bit binary count using 2 LEDs.
   ******************************************************************************
 */
 
