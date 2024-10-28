@@ -1,6 +1,6 @@
-# Questão 02
+# Question 02
 
-### Nesta questão, a frequência é de 0.5Hz, o que quer dizer que o pulso completo ocorre a cada 2 segundos e com largura de pulso igual a 100 milissegundos. O led ficará 0,1 segundos no nível lógico alto e, logo após isso, passará o restante dos dois segundos desligado.
+### In this question, the frequency is 0.5Hz, which means that the complete pulse occurs every 2 seconds, with a pulse width of 100 milliseconds. The LED will stay at a high logic level for 0.1 seconds and then will remain off for the rest of the two seconds.
 ```C
 /**
   ******************************************************************************
