@@ -1,14 +1,14 @@
-# Questão 03
+# Question 03
 
-### Nesta questão, um LED possui largura de pulso de 50 milíssegundos, contando que obedeça o seguinte ciclo: pisca uma vez, aguarda um tempo e, em seguida, pisca duas vezes seguidas, aguardando mais um tempo. Atribuímos o período do cíclo total de 1 segundo, possuindo frequência igual a 1Hz.
+### In this question, an LED has a pulse width of 50 milliseconds, following the cycle: it blinks once, waits for a time, and then blinks twice in a row, waiting for more time afterward. We assign a total cycle period of 1 second, resulting in a frequency of 1Hz.
 ```C
 /**
   ******************************************************************************
-  * @file    Questao-3.c
+  * @file    Question-3.c
   * @author  Gabriel D., Luiz Neto
   * @version V1.0.0
   * @date    05-October-2023
-  * @brief   Piscar um LED com largura de pulso de 50ms, obedecendo a um ciclo.
+  * @brief   Blink an LED with a pulse width of 50ms, following a cicle.
   ******************************************************************************
 */
 
