@@ -1,16 +1,14 @@
-# Questão 26
+# Question 26
 
-## O controle dos servomotores da questão 26 é relativamente simples, a grande diferença dessa para a questão 26 é somente que o angulo que o eixo do motor vai estar, vai ser controladas pelos botões k1 e k0, onde dependendo de qual botão você aperte, o servomotor vai se mover ou para esquerda ou para a direita.
-
-
+### The control of the servomotors in question 26 is relatively simple. The main difference from question 26 is that the angle of the motor shaft will be controlled by buttons k1 and k0. Depending on which button you press, the servomotor will move either to the left or to the right.
 ````C 
 /**
   ***********************************************************************************************************************
-  * @file    Questao-26.c 
+  * @file    Question-26.c 
   * @author  Gabriel D, Luiz Neto 
   * @version V1.0.0
   * @date    05-October-2023
-  * @brief  Controlar um servomotor apartir de dois push-buttons
+  * @brief  Control a micro servo motor to alternate its axis position between left and right using two push-buttons.
  ***********************************************************************************************************************
 */
 
