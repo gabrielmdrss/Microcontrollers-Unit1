@@ -5,7 +5,7 @@
 ```C
 /**
   ******************************************************************************
-  * @file    Questao-10.c
+  * @file    Question-10.c
   * @author  Gabriel D., Luiz Neto
   * @version V1.0.0
   * @date    05-October-2023
