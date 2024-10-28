@@ -1,16 +1,15 @@
-# Questão 06
+# Question 06
 
-### Nesta questão é pedido um acionamento do LED utilizando uma técnica PWM(Pulse Widht Modulation). Já que na eletrônica lidamos com valores 0 ou 1(3,3V), não conseguimos introduzir valores "intermediários", o PDW vem para esse propósito.
-###  Com frequência de 100Hz, temos que o período seria de 10ms, onde 1/10 desse tempo estaria no nível lógico baixo(LED aceso) e o restante do tempo com o LED apagado. Por se tratar de uma alternância extremamente rápida, temos a impressão que o LED sempre está aceso, mas que bem mais fraco do que tratado anteriormente nas outras questões.
-
+### In this question, the task is to activate the LED using a PWM (Pulse Width Modulation) technique. Since in electronics we deal with values of 0 or 1 (3.3V), we cannot introduce "intermediate" values; PWM serves this purpose. 
+### With a frequency of 100Hz, we have a period of 10ms, where 1/10 of that time would be at the low logical level (LED on) and the remaining time with the LED off. Due to the extremely rapid alternation, we have the impression that the LED is always on, but much weaker than what was handled in the previous questions.
 ```C
 /**
   ******************************************************************************
-  * @file    Questao-6.c
+  * @file    Question-6.c
   * @author  Gabriel D., Luiz Neto 
   * @version V1.0.0
   * @date    05-October-2023
-  * @brief   Mostrar um LED aceso com diferentes intensidades de brilho, utilizando uma técnica de PWM.
+  * @brief   Illuminate an LED at different brightness levels, selectable at compile time, using a PWM technique.
   ******************************************************************************
 */
 
