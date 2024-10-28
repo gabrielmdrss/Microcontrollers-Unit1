@@ -1,57 +1,56 @@
-# Microcontroladores-Unidade1
- Atividade prática da unidade 1, foi usado o STM32F407.
+# Microcontrollers - Unit 1
+Practical activity for Unit 1 of the Microprocessors and Microcontrollers course, using the STM32F407.
 
-### `01.` [Piscar um LED numa frequência de 2Hz, com largura de pulso de 250ms.](questoesPraticas/questao01.md)
+### `01.` [Blink an LED at a frequency of 2Hz, with a pulse width of 250ms.](questoesPraticas/questao01.md)
 
-### `02.` [Piscar um LED numa frequência de 0,5Hz, com largura de pulso de 100ms, produzindo um comportamento semelhante aos sinalizadores para aeronaves de baixa altitude no topo de edifícios.](questoesPraticas/questao02.md)
+### `02.` [Blink an LED at a frequency of 0.5Hz, with a pulse width of 100ms, producing behavior similar to aircraft beacons on low-altitude buildings.](questoesPraticas/questao02.md)
 
-### `03.` [Piscar um LED com largura de pulso de 50ms, obedecendo o seguinte ciclo: pisca uma vez, aguarda um tempo e, em seguida, pisca duas vezes seguidas, aguardando mais um tempo.](questoesPraticas/questao03.md)
+### `03.` [Blink an LED with a pulse width of 50ms, following this cycle: blink once, wait a while, then blink twice consecutively, followed by another wait.](questoesPraticas/questao03.md)
 
-### `04.` [Piscar um LED com largura de pulso fica de 50ms, mas com frequência crescente, iniciando em 1Hz.](questoesPraticas/questao04.md)
+### `04.` [Blink an LED with a pulse width of 50ms, but with an increasing frequency, starting at 1Hz.](questoesPraticas/questao04.md)
 
-### `05.` [Acionar um buzzer para emitir um som semelhante ao de um alarme sonoro: 4 beeps curtos de 50ms de largura, seguidos de uma pausa.](questoesPraticas/questao05.md)
+### `05.` [Activate a buzzer to emit a sound resembling an audible alarm: 4 short beeps of 50ms width, followed by a pause.](questoesPraticas/questao05.md)
 
-### `06.` [Mostrar um LED aceso com diferentes intensidades de brilho, selecionadas em tempo de compilação, utilizando uma técnica de PWM por meio de software (utilize uma frequência PWM de 100Hz).](questoesPraticas/questao06.md)
+### `06.` [Illuminate an LED at different brightness levels, selectable at compile time, using a PWM technique via software (use a PWM frequency of 100Hz).](questoesPraticas/questao06.md)
 
-### `07.` [Acender um LED com diferentes intensidades de brilho, alterando a intensidade em tempo de execução, utilizando uma técnica de PWM por meio de software (utilize uma frequência PWM de 100Hz). O LED deve iniciar apagado, aumentar gradativamente o brilho até o máximo e em seguida reduzir gradativamente o brilho até se apagar, repetindo o processo indefinidamente.](questoesPraticas/questao07.md)
+### `07.` [Illuminate an LED with different brightness levels, varying the brightness during runtime using a software PWM technique (use a PWM frequency of 100Hz). The LED should start off, gradually increase to full brightness, and then gradually dim back to off, repeating this process indefinitely.](questoesPraticas/questao07.md)
 
-### `08.` [Piscar dois LEDS, alternadamente, com largura de pulso de 50% do período, com frequência de 2Hz, produzindo um comportamento semelhante aos sinalizadores de saída de veículos em garagens. (Observação: verificar a simultaneidade de acionamento dos LEDs).](questoesPraticas/questao08.md)
+### `08.` [Blink two LEDs alternately, with a pulse width of 50% of the period at a frequency of 2Hz, mimicking vehicle exit beacons in garages. (Note: check LED activation simultaneity).](questoesPraticas/questao08.md)
 
-### `09.` [Apresentar uma contagem binária de 2 bits a partir de 2 LEDs.](questoesPraticas/questao09.md)
+### `09.` [Display a 2-bit binary count using 2 LEDs.](questoesPraticas/questao09.md)
 
-### `10.` [Acender dois LEDs com diferentes intensidades de brilho, alterando alternadamente a intensidade em tempo de execução, semelhantemente ao que foi feito na questão 7.](questoesPraticas/questao10.md)
+### `10.` [Light up two LEDs with different brightness levels, alternating the intensity at runtime, similarly to question 7.](questoesPraticas/questao10.md)
 
-### `11.` [Apresentar uma contagem binária de 8 bits a partir de 8 LEDs externos. (obs.: para facilitar a implementação do código, conecte os LEDs a pinos contíguos de um mesmo GPIO).](questoesPraticas/questao11.md)
+### `11.` [Display an 8-bit binary count using 8 external LEDs. (Note: for easier code implementation, connect LEDs to contiguous pins of the same GPIO).](questoesPraticas/questao11.md)
 
-### `12.` [Implementar o efeito do LED andante nos 8 LEDs da questão anterior: ative o primeiro LED e faça com que o LED aceso se desloque do primeiro ao último, ou seja, se o primeiro está aceso, após um tempo apaga-se esse LED enquanto se acende o segundo, e assim sucessivamente até o oitavo LED. O LED andante deve se deslocar de um extremo a outro e em seguida fazer a operação no sentido inverso.](questoesPraticas/questao12.md)
+### `12.` [Implement the walking LED effect across the 8 LEDs from the previous question: activate the first LED and make it move from the first to the last LED, lighting up one at a time. Once it reaches the last LED, it should move back to the first, reversing the direction.](questoesPraticas/questao12.md)
 
-### `13.` [Simular o funcionamento de um cruzamento com dois semáforos de trânsito usando 6 LEDs.](questoesPraticas/questao13.md)
+### `13.` [Simulate the operation of a traffic light intersection using 6 LEDs.](questoesPraticas/questao13.md)
 
-### `14.` [Apresentar uma contagem decimal/hexadecimal (crescente e decrescente) de um dígito em um display de 7 segmentos.](questoesPraticas/questao14.md)
+### `14.` [Display an ascending/descending decimal/hexadecimal count of a single digit on a 7-segment display.](questoesPraticas/questao14.md)
 
-### `15.` [Apresentar uma contagem decimal/hexadecimal (crescente e decrescente) de dois dígitos em dois displays de 7 segmentos. (Obs: Utilize a técnica de multiplexação para usar a menor quantidade possível de terminais). Utilize transistores como drive de potência para fazer a comutação do sistema de multiplexação.](questoesPraticas/questao15.md)
+### `15.` [Display an ascending/descending decimal/hexadecimal count of two digits on two 7-segment displays. (Note: Use multiplexing to minimize pin usage). Use transistors as power drivers for the multiplexing system.](questoesPraticas/questao15.md)
 
-### `17.` [Controlar um micro servomotor para que ele alterne suavemente a posição do eixo entre direita e esquerda, continuamente.](questoesPraticas/questao17.md)
+### `17.` [Control a micro servo motor to alternate its axis position smoothly between left and right, continuously.](questoesPraticas/questao17.md)
 
-### `18.` [Implementar o controle de velocidade de um motor DC para que ele acelere suavemente até sua velocidade máxima e em seguida desacelere e repita o mesmo procedimento no sentido contrário. Utilize uma ponte H como drive de potência para o motor.](questoesPraticas/questao18.md)
+### `18.` [Implement DC motor speed control so that it gradually accelerates to maximum speed and then decelerates, repeating the same in the reverse direction. Use an H-bridge as a power driver for the motor.](questoesPraticas/questao18.md)
 
-### `19.` [Realizar o acionamento de uma carga em corrente alternada (AC) de 220V a partir de um, relé.](questoesPraticas/questao19.md)
+### `19.` [Switch an AC load at 220V using a relay.](questoesPraticas/questao19.md)
 
-### `20.` [Realizar o acionamento de um motor de passo com velocidade e sentido variáveis considerando que o motor seja monopolar e, também, bipolar. Para cada caso, realize o acionamento através de passo completo, meio passo e micro passo. Quando o motor for monopolar, implemente um drive de potência com transistores. Quando o motor for bipolar, utilize duas pontes H como drive de potência ou utilize um drive de potência integrado](questoesPraticas/questao20.md)
+### `20.` [Operate a stepper motor with variable speed and direction, considering both unipolar and bipolar types. For each type, use full-step, half-step, and micro-step modes. When the motor is unipolar, implement a transistor power driver. When bipolar, use two H-bridges as the power driver, or an integrated power driver.](questoesPraticas/questao20.md)
 
-### `21.` [Reproduzir em uma saída com um LED o estado de uma entrada com um push-button.](questoesPraticas/questao21.md)
+### `21.` [Reproduce an input state on an output LED using a push-button.](questoesPraticas/questao21.md)
 
-### `22.` [Reproduzir em duas saídas com dois LEDs os estados de duas entradas com dois push-buttons.](questoesPraticas/questao22.md)
+### `22.` [Reproduce the states of two inputs on two LEDs using two push-buttons.](questoesPraticas/questao22.md)
 
-### `23.` [Utilizar uma entrada com um push-button para alternar o estado lógico de uma saída conectada a um LED.](questoesPraticas/questao23.md)
+### `23.` [Use a push-button to toggle the logic state of an output connected to an LED.](questoesPraticas/questao23.md)
 
-### `24.` [Utilizar dois push-button (K0 e K1) para acionar um LED com a seguinte regra: o LED só deve acender se o usuário pressionar os dois botões juntos, mas primeiro o botão K0 deve ser pressionado e só depois o botão K1.](questoesPraticas/questao24.md)
+### `24.` [Use two push-buttons (K0 and K1) to turn on an LED with the following rule: the LED should only light up if both buttons are pressed together, with button K0 pressed first, followed by button K1.](questoesPraticas/questao24.md)
 
-### `25.` [ Utilizar dois push-button (K0 e K1) para acionar um LED com a seguinte regra: o LED só deve acender se o usuário pressionar os dois botões juntos, mas primeiro o botão K0 e em seguida o botão K1. Se o botão K1 não for pressionado dentro de no máximo 1 segundo após K0 ser pressionado, o LED não deve acender.](questoesPraticas/questao25.md)
+### `25.` [Use two push-buttons (K0 and K1) to turn on an LED with the following rule: the LED should only light up if both buttons are pressed together, but K0 must be pressed first, followed by K1. If K1 is not pressed within 1 second after K0 is pressed, the LED should not light up.](questoesPraticas/questao25.md)
 
-### `26.` [Controlar um micro servomotor para que ele alterne suavemente a posição do eixo entre direita e esquerda por meio de dois push-buttons, sendo um para posicionar o eixo do motor mais à esquerda e outro mais à direita.](questoesPraticas/questao26.md)
+### `26.` [Control a micro servo motor to alternate its axis position between left and right using two push-buttons, one for left and one for right.](questoesPraticas/questao26.md)
 
-### `27.` [ Utilizar um teclado de membrana, 4x4, e fazer sua decodificação, apresentando a tecla pressionada em um display de 7 segmentos.](questoesPraticas/questao27.md)
+### `27.` [Use a 4x4 membrane keypad and decode it, displaying the pressed key on a 7-segment display.](questoesPraticas/questao27.md)
 
-### `30.` [Implementar o antigo jogo da memória “Genius”. (Utilize as funções rand() ou srand() para criar uma sequência aleatória a ser memorizada)](questoesPraticas/questao30.md)
-
+### `30.` [Implement the classic memory game "Simon Says" (Use the functions rand() or srand() to create a random sequence to memorize).](questoesPraticas/questao30.md)
