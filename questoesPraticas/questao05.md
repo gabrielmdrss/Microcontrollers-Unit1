@@ -1,15 +1,14 @@
-# Questão 05
+# Question 05
 
-### Nesta questão é pedido um acionamento de um buzzer com uma sequência específica: 4 beeps curtos de 50ms de largura, seguidos de uma pausa. Consideramos a pausa com largura de 600ms.
-
+### In this question, the task is to activate a buzzer with a specific sequence: 4 short beeps of 50ms width, followed by a pause. We consider the pause to have a width of 600ms.
 ```C
 /**
   ******************************************************************************
-  * @file    Questao-5.c
+  * @file    Question-5.c
   * @author  Gabriel D., Luiz Neto
   * @version V1.0.0
   * @date    05-October-2023
-  * @brief   Acionar um buzzer para emitir um som semelhante ao de um alarme sonoro.
+  * @brief   Activate a buzzer to emit a sound resembling an audible alarm.
   ******************************************************************************
 */
 
