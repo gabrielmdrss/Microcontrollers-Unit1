@@ -1,14 +1,15 @@
-# Questão 13
+# Question 13
 
-### Nesta questão, é pedido uma simulação de dois semáfaros. Onde quando um estiver aberto, o outro deve permanecer fechado. Tendo 6 LEDs na implementação, 3 para cada semáfaro, seguindo a lógica normal do trânsito.
+### In this question, a simulation of two traffic lights is requested. When one is green, the other must remain red. There are 6 LEDs in the implementation, 3 for each traffic light, following the normal traffic logic. A low delay is assigned for better illustration of the modeling.
+
 ```C
 /**
   ******************************************************************************
-  * @file    Questao-13.c 
+  * @file    Question-13.c 
   * @author  Gabriel D., Luiz Neto
   * @version V1.0.0
   * @date    05-October-2023
-  * @brief   Implementar o efeito do LED andante nos 8 LEDs da questão anterior.
+  * @brief   Simulate the operation of a traffic light intersection using 6 LEDs.
   ******************************************************************************
 */
 
