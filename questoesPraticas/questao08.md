@@ -1,15 +1,16 @@
-# Questão 08
+# Question 08
 
-### Nesta questão é pedido um acionamento de dois LEDs, com largura de pulso com 50% do período. Temos a frequência igual a 2Hz, ou seja, o período de 0,5s. Ocorrendo uma alternância de valores lógicos a cada 0,25s. Começamos o LED "D1" com nível lógico 1(LED desligado) e o LED "D2" com nível lógico 0(LED ligado), para que a alternância ocorra ciclicamente, mas sempre de forma oposta. Tendo algo como 0-1, 1-0, 0-1, 1-0, ...
+### In this question, the activation of two LEDs is requested, with a pulse width of 50% of the period. We have a frequency of 2Hz, meaning a period of 0.5s. Logical values alternate every 0.25s. We start with LED "D1" at a logical level of 1 (LED off) and LED "D2" at a logical level of 0 (LED on), so that the alternation occurs cyclically but always in an opposite manner. It will look like 0-1, 1-0, 0-1, 1-0, ...
+
 
 ```C
 /**
   ******************************************************************************
-  * @file    Questao-8.c
+  * @file    Question-8.c
   * @author  Gabriel D., Luiz Neto.
   * @version V1.0.0
   * @date    05-October-2023
-  * @brief   Piscar dois LEDS, alternadamente, com largura de pulso de 50% do período.
+  * @brief   Blink two LEDs alternately, with a pulse width of 50% of the period at a frequency of 2Hz.
   ******************************************************************************
 */
 
