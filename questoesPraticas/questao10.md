@@ -1,6 +1,6 @@
-# Questão 10 
+# Question 10
 
-### Nesta questão, semelhante à questão 7, é cobrado um acionamento alternado de dois LEDs com o uso da técnica PDW(Pulse Widht Modulation). Mas enquanto um irá acender linearmente, o outro irá apagar linearmente. Em poucas palavras, isso significa que em locais onde assumíamos o nível lógico alto para PA6(LED D2), atribuímos nível lógico baixo para PA7(LED D1) e vice-versa. Fazendo com que para um LED seja um laço para acender e apagar, e no outro LED, um laço será apagar e acender, de forma invertida.
+### In this question, similar to question 7, an alternating activation of two LEDs is required using the PDW (Pulse Width Modulation) technique. However, while one will light up linearly, the other will turn off linearly. In simple terms, this means that in places where we assumed a high logical level for PA6 (LED D2), we assign a low logical level for PA7 (LED D1) and vice versa. This results in one LED having a loop to turn on and off, while the other LED will have a loop to turn off and on, in reverse order.
 
 ```C
 /**
@@ -9,7 +9,7 @@
   * @author  Gabriel D., Luiz Neto
   * @version V1.0.0
   * @date    05-October-2023
-  * @brief   Acender dois LEDs com diferentes intensidades de brilho.
+  * @brief   Light up two LEDs with different brightness levels, alternating the intensity at runtime.
   ******************************************************************************
 */
 
