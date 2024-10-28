@@ -1,17 +1,18 @@
-# Questão 15
+# Question 15
 
-### Nesta questão, é pedido um acionamento de dois displays de 7 segmentos apartir de 2 transistores, para fazer uma contagem decimal/hexadecimal de 256 possibilidades(16x16). Na nossa montagem, os dois displays foram conectados nas mesmas portas, ou seja, se ligados no mesmo momento, exibiriam os mesmos resultados. Para evitar essa situação, fizemos uso de uma funçao tempo, que tem duração de 1 segundo. Nesse 1 segundo a função irá alternar rapidamente entre ligar e desligar um transistor por vez, dando a falsa impressão que os dois estão ligados paralelamente, denominado pseudoparalelismo.
+### In this question, the task is to control two 7-segment displays using 2 transistors to perform a decimal/hexadecimal count of 256 possibilities (16x16). In our setup, both displays were connected to the same ports, meaning that if turned on simultaneously, they would display the same results. To avoid this situation, we used a timing function that lasts for 1 second. During this 1 second, the function will rapidly alternate between turning one transistor on and off at a time, giving the false impression that both are connected in parallel, referred to as pseudoparallelism.
+
 #####
-### Assim como a questão 14, fizemos uso de uma lista de inteiros, representando a máscara em binário de cada digito do sistema decimal/hexadecimal. Assim, fízemos um loop dentro de um loop, para ser uma espécie de matriz, com os indices "i" e "j", retratando as dezenas e as unidades, respectivamente. Desse modo, dentro do segundo loop implementamos a função tempo, para conseguir passar a impressão que os displays estão operando em conjunto.
+### Similar to question 14, we utilized a list of integers representing the binary mask for each digit in the decimal/hexadecimal system. Thus, we created a loop within a loop, resembling a matrix with indices "i" and "j", representing the tens and units, respectively. Consequently, within the second loop, we implemented the timing function to create the impression that the displays are operating together.
 
 ```C
 /**
   ***************************************************************************************
-  * @file    Questao-15.c 
+  * @file    Question-15.c 
   * @author  Gabriel D., Luiz
   * @version V1.0.0
   * @date    05-October-2023
-  * @brief   Apresentar uma contagem decimal/hexadecimal em dois displays de 7 segmentos.
+  * @brief   Display an ascending/descending decimal/hexadecimal count of two digits on two 7-segment displays.
   ***************************************************************************************
 */
 
