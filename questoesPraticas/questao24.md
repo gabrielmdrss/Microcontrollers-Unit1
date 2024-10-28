@@ -1,18 +1,19 @@
-# Questão 24
+# Question 24
 
-## Para cumprir a regra imposta pela regra questão 24, o código precisa cumprir alguns pré-requisitos, primeiro se o botão k1 for pressionado nada acontece, se somente K0 for pressionado também nada acontece, se o botão K0 e o botão K1 forem pressionados respectivamente então o led D1 é acesso.
+### To comply with the rule imposed by this question, the code needs to meet some prerequisites. First, if button K1 is pressed, nothing happens. If only K0 is pressed, nothing happens either. If button K0 and button K1 are pressed respectively, then LED D1 is turned on.
 
-### A escolha dos pinos pe4 e pe3 foi exclusivamente porque eles são responsáveis por acionar os leds D1 e D2 respectivamente presentes no micro, apesar disso só é necessário acender o led D1 na questão 24.
+### The choice of pins PE4 and PE3 was made exclusively because they are responsible for activating LEDs D1 and D2 respectively present on the microcontroller. However, only LED D1 needs to be turned on in question 24.
+
 
 
 ````C 
 /**
   ***************************************************************************************************
-  * @file    Questao-24.c 
+  * @file    Question-24.c 
   * @author  Gabriel D, Luiz Neto 
   * @version V1.0.0
   * @date    05-October-2023
-  * @brief  Led só acende se quando o botão K0 primeiro é precionado e logo em seguida o K1
+  * @brief  Use two push-buttons (K0 and K1) to turn on an LED with a rule.
  ***************************************************************************************************
 */
 
