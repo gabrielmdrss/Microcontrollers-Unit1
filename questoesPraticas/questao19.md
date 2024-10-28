@@ -1,6 +1,6 @@
 # Question 19
 
-## In question 19, a relay is activated from a load in direct current (DC) of 5V.
+### In this question, a relay is activated from a load in direct current (DC) of 5V.
 
 ## Setup:
 The relay used in this question is a 1-channel 5V relay. To connect it to the STM32, three connections were established: the VCC output of the relay was connected to the 5V output of the STM32, the GND of the relay was connected to any GND terminal of the microcontroller, and the "IN" output was connected to pin PA6.
