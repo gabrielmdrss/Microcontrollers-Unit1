@@ -1,21 +1,21 @@
-# Questão 19
+# Question 19
 
-## Na questão 19 um relé é acionado a partir carga em corrente contínua (DC) de 5V..
+## In question 19, a relay is activated from a load in direct current (DC) of 5V.
 
-## Montagem:
-### O Relé utilizado na questão foi um, relé de 1 canal 5V. Para conectá-lo ao STM32, foram estabelecidas três conexões: a saída VCC do relé foi conectada à saída de 5V do STM32, o GND do relé foi conectado a qualquer terminal GND do microcontrolador e a saída "IN" foi conectada ao pino PA6.
+## Setup:
+The relay used in this question is a 1-channel 5V relay. To connect it to the STM32, three connections were established: the VCC output of the relay was connected to the 5V output of the STM32, the GND of the relay was connected to any GND terminal of the microcontroller, and the "IN" output was connected to pin PA6.
 
-## Código:
-### Esse código é simples, a única exceção foi exclusivamente no acionamento do pino PA6 no modo OTYPER como Open-Drain. O Open-Drain torna-se necessário nessa questão porque possibilita o controle de relés com diferentes tensões de operação, uma vez que o nível alto é determinado pela tensão de alimentação do relé e do resistor de pull-up externo, não pelo nível de tensão do microcontrolador.
+## Code:
+This code is simple; the only exception was exclusively in activating pin PA6 in Open-Drain mode. Open-Drain is necessary in this case because it allows the control of relays with different operating voltages, as the high level is determined by the relay's supply voltage and the external pull-up resistor, not by the voltage level of the microcontroller.
 
 ````C 
 /**
   ******************************************************************************
-  * @file    Questao-21.c 
-  * @author  , Luiz Neto 
+  * @file    Question-21.c 
+  * @author  Gabriel D, Luiz Neto 
   * @version V1.0.0
   * @date    05-October-2023
-  * @brief   Realizar o acionamento de uma carga partir de um relé.
+  * @brief   Switch an AC load at 220V using a relay.
   ******************************************************************************
 */
 
