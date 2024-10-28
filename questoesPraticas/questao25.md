@@ -1,17 +1,18 @@
-# Questão 25
+# Question 25
 
-## Na questão 25 a questão pede duas regras para o acionamento do led, primeiro se o botão k1 for pressionado nada acontece, se somente K0 for pressionado também nada acontece, se botão K0 e logo após exatamente 1 segundo o botão K1 forem pressionados respectivamente então o led D1 é acesso.
+### This question, it asks for two rules for activating the LED: first, if button K1 is pressed, nothing happens; if only K0 is pressed, nothing happens either. However, if button K0 is pressed and then exactly 1 second later button K1 is pressed, then LED D1 will be turned on.
 
-### A escolha dos pinos pe4 e pe3 foi exclusivamente porque eles são responsáveis por acionar os leds D1 e D2 respectivamente presentes no micro, apesar disso só é necessário acender o led D1 na questão 25.
+### The choice of pins PE4 and PE3 was exclusively because they are responsible for activating LEDs D1 and D2 respectively present in the microcontroller; despite this, only LED D1 needs to be turned on in question 25.
+
 
 ````C 
 /**
   ***********************************************************************************************************************
-  * @file    Questao-25.c 
+  * @file    Question-25.c 
   * @author  Gabriel D, Luiz Neto 
   * @version V1.0.0
   * @date    05-October-2023
-  * @brief  Led só acende se quando o botão K0 primeiro é precionado e depois de exatamente 1 segundo o K1 é precionado
+  * @brief  Use two push-buttons (K0 and K1) to turn on an LED with the a rule.
  ***********************************************************************************************************************
 */
 
