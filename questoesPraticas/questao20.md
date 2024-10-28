@@ -1,6 +1,6 @@
 # Question 20
 
-## In Question 20, the task is to drive a stepper motor with variable speed and direction.
+### In this question, the task is to drive a stepper motor with variable speed and direction.
 
 ## Setup:
 A bipolar stepper motor was used, connected to a Monster Motor Shield expansion board with two H-bridges as the power driver. This expansion module used with the STM32 is especially designed to control high-power motors, such as DC motors or stepper motors, and with the H-bridges, the control of the stepper motor becomes precise.
