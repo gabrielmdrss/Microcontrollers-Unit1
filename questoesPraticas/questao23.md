@@ -1,18 +1,19 @@
-# Questão 23
+# Question 23
 
-## A questão 23 é bem simples, resumindo a você vai transformar o botão do stm32 em um interruptor (apertou o led desliga, apertou de novo o led liga e assim sucessivamente).
+### This question is quite simple; in summary, you will turn the button of the STM32 into a switch (pressing it will turn off the LED, pressing it again will turn it on, and so on).
 
-### A escolha do pino pe4 foi exclusivamente porque ele é responsável por acionar o led D1 presente no micro.
+### The choice of pin PE4 was made exclusively because it is responsible for activating the LED D1 present on the microcontroller.
+
 
 
 ````C 
 /**
   ***************************************************************************************************
-  * @file    Questao-23.c 
+  * @file    Question-23.c 
   * @author  Gabriel D, Luiz Neto 
   * @version V1.0.0
   * @date    05-October-2023
-  * @brief   Utilizar uma entrada para alternar o estado lógico de uma saída de um LED.
+  * @brief   Use a push-button to toggle the logic state of an output connected to an LED.
 
   ***************************************************************************************************
 */
