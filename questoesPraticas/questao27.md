@@ -1,18 +1,17 @@
-# Questão 27
+# Question 27
 
-## A questão 27 pede o uso de um teclado membrana 4x4, e a partir de sua decodificação, apresentar a tecla pressionada em um display de 7 segmentos, mas esse código funciona apenas para os botões, k0, k1 e k_up que já estão no stm32.
+### Question 27 requires the use of a 4x4 membrane keypad, and based on its decoding, to display the pressed key on a 7-segment display. However, this code works only for the buttons k0, k1, and k_up that are already on the STM32.
 
-## O código é simples basicamente ele lê qual botão está sendo apertado e cada botão vai imprimir um número de 1 a 3 no display de 7 segmentos. Um delay entre as leituras se torna necessário caso os botões sejam clicados muito rápidos, evitando um bug no número apresentado no display
-
+### The code is simple; it basically reads which button is being pressed, and each button will print a number from 1 to 3 on the 7-segment display. A delay between readings becomes necessary if the buttons are clicked too quickly, preventing a bug in the number displayed.
 
 ````C 
 /**
   ***********************************************************************************************************************
-  * @file    Questao-27.c 
+  * @file    Question-27.c 
   * @author  Gabriel D, Luiz Neto 
   * @version V1.0.0
   * @date    05-October-2023
-  * @brief  Ultizar os 3 botões do stm32 para imprimir numeros em um display de 7 segmentos
+  * @brief  Use a 4x4 membrane keypad and decode it, displaying the pressed key on a 7-segment display.
  ***********************************************************************************************************************
 */
 
