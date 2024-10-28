@@ -1,17 +1,18 @@
-# Questão 22
+# Question 22
 
-## A questão 22 pede para a que, seja reproduzida em duas saídas com dois Leds os estados de suas entradas com dois push-button. A questão 22 é um complemento da questão 21 onde no proprio botão k1 e k2 do stm32, quando pressionados, os dois leds da placa vai ser acesso, para isso funcionar é necessário acionar em tempo de execução o resistor pull-up presente no pino pe4 e pe3.
+### Question 22 asks for the reproduction of the states of its inputs with two push-buttons on two outputs with two LEDs. Question 22 is a complement to Question 21, where pressing buttons K1 and K2 on the STM32 will turn on both LEDs on the board. For this to work, it is necessary to activate the pull-up resistor present on pins PE4 and PE3 at runtime.
 
-### A escolha dos pinos pe4 e pe3 foi exclusivamente porque eles são responsáveis por acionar os leds D1 e D2 respectivamente presentes no micro.
+### The choice of pins PE4 and PE3 was made exclusively because they are responsible for controlling LEDs D1 and D2, respectively, present on the microcontroller.
+
 
 ````C 
 /**
   ***************************************************************************************************
-  * @file    Questao-22.c 
+  * @file    Question-22.c 
   * @author  Gabriel D, Luiz Neto 
   * @version V1.0.0
   * @date    05-October-2023
-  * @brief   Reproduzir em duas saída com dois LEDs os estados de suas entradas com dois push-buttons
+  * @brief   Reproduce the states of two inputs on two LEDs using two push-buttons.
   ***************************************************************************************************
 */
 
