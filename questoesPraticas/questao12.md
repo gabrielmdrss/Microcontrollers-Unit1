@@ -11,7 +11,7 @@
   * @author  Gabriel D., Luiz Neto
   * @version V1.0.0
   * @date    05-October-2023
-  * @brief   12. Implement the walking LED effect across the 8 LEDs
+  * @brief   Implement the walking LED effect across the 8 LEDs
   ******************************************************************************
 */
 
