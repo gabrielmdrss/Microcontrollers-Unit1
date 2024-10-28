@@ -1,25 +1,28 @@
-# Questão 20
+# Question 20
 
-## Na questão 20 é pedido um acionamento de um motor de passo com velocidade e sentido variáveis
+## In Question 20, the task is to drive a stepper motor with variable speed and direction.
 
-## Montagem:
-### Foi utilizado um motor de passo bipolar ligado em uma placa de expansão monster motor sheild com duas pontes H como drive de potência, esse modulo de expansão usado no stm32, serve especialmente controlar motores de alta potências, como motores DC ou motores de passo e com as pontes H, o controle do motor de passo se torna preciso.
+## Setup:
+A bipolar stepper motor was used, connected to a Monster Motor Shield expansion board with two H-bridges as the power driver. This expansion module used with the STM32 is especially designed to control high-power motors, such as DC motors or stepper motors, and with the H-bridges, the control of the stepper motor becomes precise.
 
-## Código:
-### Para a construção do código a gente considerou o seguinte cenário: o eixo do motor realizar um giro de 360º em uma direção e logo em seguida realizar o movimento inverso.
-### Para fazer um motor de passo bipolar girar, você precisa ativar as bobinas em sequência específica, gerando campos eltromagnéticos que interagem com o rotor e o fazem mover-se. Script básico para fazerem se moverem é esse: Ativação de Bobina 1, Desativação de Bobina 1 e Ativação de Bobina 2, Desativação de Bobina 2.
-### Cada passo completo gira o motor em um ângulo de 1,8 graus, já que existem 200 passos por revolução (360 graus / 1,8 graus por passo).
-### O controle da velocidade e direção do motor de passo é alcançado ajustando o tempo durante o qual as bobinas são ativadas e a ordem das ativações. No código a gente fez uma modulação por largura de pulso (PWM) para controlar a corrente nas bobinas e, assim, a velocidade do motor e sua direção. Utilizando os drives de potência para isso.
+## Code:
+For the construction of the code, we considered the following scenario: the motor shaft performs a 360º rotation in one direction and then immediately performs the reverse movement.
+To make a bipolar stepper motor rotate, you need to activate the coils in a specific sequence, generating electromagnetic fields that interact with the rotor and make it move.
 
+### A basic script to make them move is as follows: 
+Activate Coil 1, Deactivate Coil 1, Activate Coil 2, Deactivate Coil 2.
+
+Each complete step rotates the motor by an angle of 1.8 degrees, as there are 200 steps per revolution (360 degrees / 1.8 degrees per step).
+The control of the speed and direction of the stepper motor is achieved by adjusting the time during which the coils are activated and the order of activations. In the code, we implemented pulse width modulation (PWM) to control the current in the coils, thus controlling the speed of the motor and its direction, using the power drivers for this purpose.
 
 ````C 
 /**
   *****************************************************************
-  * @file    Questao-20.c 
+  * @file    Question-20.c 
   * @author  Gabriel D, Luiz Neto
   * @version V0.1.0
   * @date    05-October-2023
-  * @brief   Realizar o acionamento de um motor de passo.
+  * @brief   Operate a stepper motor with variable speed and direction.
   *****************************************************************
 */
 
