@@ -1,6 +1,6 @@
-# Questão 01
+# Question 01
 
-### Nesta questão, a frequência é de 2Hz, o que quer dizer que o pulso completo ocorre a cada 0.5 segundos, e a cada 250 milissegundos, o LED na placa será desligado e ligado novamente.
+### In this question, the frequency is 2Hz, which means that the complete pulse occurs every 0.5 seconds, and every 250 milliseconds, the LED on the board will be turned off and then back on again.
 
 ```C
 /**
