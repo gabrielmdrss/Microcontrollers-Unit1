@@ -1,16 +1,19 @@
-# Questão 14
+# Question 14
 
-### Nesta questão, é pedido uma contagem decimal/hexadecimal de um dígito com um display de 7 segmentos. Como o nome já diz, o display possui 7 segmentos, que irão em 7 portas(PA0-PA6). Para cada valor decimal/hexadecimal exibido, existe um valor em binário, logo fizemos uma lista com as 16 possibilidades, com os valores binários convertidos para inteiros decimais.
+### In this question, a decimal/hexadecimal counting of a digit is requested using a 7-segment display. As the name suggests, the display has 7 segments, which will connect to 7 ports (PA0-PA6). For each decimal/hexadecimal value displayed, there is a corresponding binary value; therefore, we created a list with the 16 possibilities, with the binary values converted to decimal integers.
+
 #####
-### Após isso, fizemos um laço de tamanho 16 para a cada iteração, distribuir o valor em binário para as portas do GPIOA de forma crescente e outro com uma lógica inversa, para decrescer.
+
+### After that, we created a loop of size 16 to distribute the binary value to the GPIOA ports in increasing order for each iteration, and another with inverse logic to decrease.
+
 ```C
 /**
   ******************************************************************************
-  * @file    Questao-14.c 
+  * @file    Question-14.c 
   * @author  Gabriel D., Luiz
   * @version V1.0.0
   * @date    05-October-2023
-  * @brief   Apresentar uma contagem decimal/hexadecimal.
+  * @brief   Display an ascending/descending decimal/hexadecimal count of a single digit on a 7-segment display.
   ******************************************************************************
 */
 
