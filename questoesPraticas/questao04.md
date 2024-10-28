@@ -1,14 +1,14 @@
-# Questão 04
+# Question 04
 
-### Nesta questão é pedido um acionamento de um LED com largura de pulso fixa de 50ms, mas com uma frequência crescente. Podemos inferir que com o aumento da frequência levará a diminuição do período, ocasionando em uma aceleração do ciclo. Com frequência inicial de 1Hz temos que o período inicial é de 1s. Usamos um laço de repetição onde através da variável "tempo", a cada iteração ocorria um aumento linear da frequência, até o ponto que a largura total fosse apenas os 50ms fixos. Após isso, reiniciando a sequência e fazendo tudo novamente.
+### In this question, the task is to activate an LED with a fixed pulse width of 50ms, but with an increasing frequency. We can infer that as the frequency increases, the period decreases, resulting in an acceleration of the cycle. With an initial frequency of 1Hz, we have an initial period of 1s. We use a loop where, through the variable "time," a linear increase in frequency occurs at each iteration, until the total width is only the fixed 50ms. After that, the sequence restarts and everything is done again.
 ```C
 /**
   ***********************************************************************************************************
-  * @file    Questao-4.c
+  * @file    Question-4.c
   * @author  Gabriel D., Luiz Neto
   * @version V1.0.0
   * @date    05-October-2023
-  * @brief   Piscar um LED com largura de pulso fixa de 50ms, mas com frequência crescente, iniciando em 1Hz.
+  * @brief  Blink an LED with a pulse width of 50ms, but with an increasing frequency, starting at 1Hz.
   ***********************************************************************************************************
 */
 
