@@ -1,17 +1,17 @@
-# Questão 11
+# Question 11
 
-### Nesta questão, é pedido um sistema capaz de apresentar uma contagem de 8 bits, usando LEDs externos na implementação. Usamos o GPIOA para esse problema, sendo o bit menos significativo o PA0 e o mais significativo o PA7.
-######
-### Após a devida montagem, fizemos um laço de tamanho 256, sendo esse o tanto de possibilidades que 8 bits podem abranger. A cada iteração, atribuíamos o valor do indice a porta GPIOA, onde o valor era passado em binário para as respectivas portas. Para uma boa ilustração inserímos um Delay baixo, para demonstrar a capacidade de nossa montagem. 
+### In this question, a system is requested that can display an 8-bit count using external LEDs in the implementation. We used GPIOA for this problem, with the least significant bit being PA0 and the most significant bit being PA7.
+
+### After the proper setup, we created a loop of size 256, which is the number of possibilities that 8 bits can encompass. In each iteration, we assigned the index value to the GPIOA port, where the value was passed in binary to the respective ports. To provide a good illustration, we inserted a low delay to demonstrate the capability of our setup.
 
 ```C
 /**
   ******************************************************************************
-  * @file    Questao-11.c
+  * @file    Question-11.c
   * @author  Gabriel D., Luiz Neto
   * @version V1.0.0
   * @date    05-October-2023
-  * @brief   Apresentar uma contagem binária de 8 bits a partir de 8 LEDs externos.
+  * @brief   Display an 8-bit binary count using 8 external LEDs.
   ******************************************************************************
 */
 
