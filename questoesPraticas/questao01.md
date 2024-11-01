@@ -5,11 +5,11 @@
 ```C
 /**
   ******************************************************************************
-  * @file    Questao-1.c
+  * @file    Question-1.c
   * @author  Gabriel D., Luiz Neto
   * @version V1.0.0
   * @date    05-October-2023
-  * @brief   Piscar um LED numa frequência de 2Hz, com largura de pulso de 250ms.
+  * @brief   Blink an LED at a frequency of 2Hz, with a pulse width of 250ms.
   ******************************************************************************
 */
 
