@@ -1,5 +1,5 @@
 # Microcontrollers - Unit 1
-Practical activity for Unit 1 of the Microprocessors and Microcontrollers course, using the STM32F407.
+Practical activity for Unit 1 of the class of Microprocessors and Microcontrollers, using the STM32F407.
 
 ### `01.` [Blink an LED at a frequency of 2Hz, with a pulse width of 250ms.](questoesPraticas/questao01.md)
 
