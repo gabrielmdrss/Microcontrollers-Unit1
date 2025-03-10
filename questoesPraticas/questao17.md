@@ -1,15 +1,15 @@
-# Questão 17
+# Question 17
 
-### Nesta questão, é pedido um acionamento de um micro servomotor, para que ele consiga alternar suavemente da esquerda para direita. A variação do servomotor acontece em uma faixa de 500microssegundos a 2500microssegundos, onde cada valor nesse intervalo simboliza um ângulo de 0 a 180 graus. Sabendo disso, fizemos um laço para fazer o sentido esquerda-direita e outro para o sentido direita-esquerda. Ambos com tamanho 2000, sendo esse o número de possibilidades entre 500 - 2500.
+### In this question, a micro servo motor is required to be activated so that it can smoothly switch from left to right. The servo motor varies in a range of 500 microseconds to 2500 microseconds, where each value in this range symbolizes an angle from 0 to 180 degrees. Knowing this, we made a loop to make the left-right direction and another for the right-left direction. Both with a size of 2000, this being the number of possibilities between 500 - 2500.
 
 ```C
 /**
   ******************************************************************************
-  * @file    Questao-17.c 
+  * @file    Question-17.c 
   * @author  Gabriel D., Luiz
   * @version V1.0.0
   * @date    05-October-2023
-  * @brief   Controlar um micro servomotor para que ele alterne suavemente a posição do eixo.
+  * @brief   Control a micro servo motor so that it smoothly changes the position of the shaft.
   ******************************************************************************
 */
 
